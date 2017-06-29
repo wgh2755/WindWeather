@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_margin="15dp">
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:text="22:00"/>
+    <ImageView
+        android:id="@+id/cond_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"/>
+    <TextView
+        android:id="@+id/hourlyInfo_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:layout_gravity="center_vertical"
+        android:gravity="left"
+        android:text="与转多云"/>
+    <TextView
+        android:id="@+id/hourlytmp_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:textColor="#fff"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="20.C"/>
+
+
+    <TextView
+        android:id="@+id/dir_text"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/sc_text"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textColor="#fff"
+        android:layout_gravity="right"
+        android:gravity="center"/>
+
+
+</LinearLayout>
